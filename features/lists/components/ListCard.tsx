@@ -1,4 +1,4 @@
-import { PressableButton } from '@/shared/components/PressableButton';
+import { PressableButton } from '@/features/shared/components/PressableButton';
 import Feather from '@expo/vector-icons/Feather';
 import * as Haptics from 'expo-haptics';
 import { Link } from 'expo-router';
@@ -9,7 +9,7 @@ import { useItemStore } from '@/features/items/stores/item.store';
 import { useList } from '@/features/lists/hooks/useList';
 import type { List } from '@/features/lists/interfaces/list.interfaces';
 import { useListStore } from '@/features/lists/stores/list.store';
-import { formatCurrency } from '@/shared/utils/formatCurrency';
+import { formatCurrency } from '@/features/shared/utils/formatCurrency';
 
 interface Props {
   list: List;

@@ -2,8 +2,8 @@ import { useLocalSearchParams, useRouter } from 'expo-router';
 
 import { ItemForm, type ItemFormValues } from '@/features/items/components/ItemForm';
 import { useItemStore } from '@/features/items/stores/item.store';
-import { Container } from '@/shared/components/Container';
-import { Heading } from '@/shared/components/Heading';
+import { Container } from '@/features/shared/components/Container';
+import { Heading } from '@/features/shared/components/Heading';
 
 const CreateItemScreen = () => {
   const { listId } = useLocalSearchParams();

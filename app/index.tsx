@@ -4,10 +4,10 @@ import { FlatList, Text } from 'react-native';
 
 import { ListCard } from '@/features/lists/components/ListCard';
 import { useListStore } from '@/features/lists/stores/list.store';
-import { Container } from '@/shared/components/Container';
-import { EmptyState } from '@/shared/components/EmptyState';
-import { Heading } from '@/shared/components/Heading';
-import { PressableButton } from '@/shared/components/PressableButton';
+import { Container } from '@/features/shared/components/Container';
+import { EmptyState } from '@/features/shared/components/EmptyState';
+import { Heading } from '@/features/shared/components/Heading';
+import { PressableButton } from '@/features/shared/components/PressableButton';
 
 const ListsScreen = () => {
   const lists = useListStore((state) => state.lists);

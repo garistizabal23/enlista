@@ -1,6 +1,6 @@
 import { Link, LinkProps } from 'expo-router';
 
-import { PressableButton } from '@/shared/components/PressableButton';
+import { PressableButton } from '@/features/shared/components/PressableButton';
 import Feather from '@expo/vector-icons/Feather';
 
 interface Props {

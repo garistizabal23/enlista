@@ -2,7 +2,7 @@ import Ionicons from '@expo/vector-icons/Ionicons';
 import { Link } from 'expo-router';
 import { Text } from 'react-native';
 
-import { PressableButton } from '@/shared/components/PressableButton';
+import { PressableButton } from '@/features/shared/components/PressableButton';
 
 export const BackButton = () => {
   return (

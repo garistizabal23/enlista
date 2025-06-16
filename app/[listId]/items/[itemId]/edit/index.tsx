@@ -3,10 +3,10 @@ import { useLocalSearchParams, useRouter } from 'expo-router';
 import { ItemForm, type ItemFormValues } from '@/features/items/components/ItemForm';
 import { useItem } from '@/features/items/hooks/useItem';
 import { useItemStore } from '@/features/items/stores/item.store';
-import { BackButton } from '@/shared/components/BackButton';
-import { Container } from '@/shared/components/Container';
-import { EmptyState } from '@/shared/components/EmptyState';
-import { Heading } from '@/shared/components/Heading';
+import { BackButton } from '@/features/shared/components/BackButton';
+import { Container } from '@/features/shared/components/Container';
+import { EmptyState } from '@/features/shared/components/EmptyState';
+import { Heading } from '@/features/shared/components/Heading';
 
 const EditItemScreen = () => {
   const { listId, itemId } = useLocalSearchParams();

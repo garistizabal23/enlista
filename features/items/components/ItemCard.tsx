@@ -5,9 +5,9 @@ import { GestureResponderEvent, Pressable, StyleSheet, Text, View } from 'react-
 
 import type { Item } from '@/features/items/interfaces/item.interfaces';
 import { useItemStore } from '@/features/items/stores/item.store';
-import { Checkbox } from '@/shared/components/Checkbox';
-import { PressableButton } from '@/shared/components/PressableButton';
-import { formatCurrency } from '@/shared/utils/formatCurrency';
+import { Checkbox } from '@/features/shared/components/Checkbox';
+import { PressableButton } from '@/features/shared/components/PressableButton';
+import { formatCurrency } from '@/features/shared/utils/formatCurrency';
 
 interface Props {
   item: Item;

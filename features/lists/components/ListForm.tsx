@@ -3,8 +3,8 @@ import { Link } from 'expo-router';
 import { Controller, useForm } from 'react-hook-form';
 import { Text, View } from 'react-native';
 
-import { Input } from '@/shared/components/Input';
-import { PressableButton } from '@/shared/components/PressableButton';
+import { Input } from '@/features/shared/components/Input';
+import { PressableButton } from '@/features/shared/components/PressableButton';
 
 export interface ListFormValues {
   name: string;

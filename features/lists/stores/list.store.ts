@@ -3,7 +3,7 @@ import { StateCreator, create } from 'zustand';
 import { immer } from 'zustand/middleware/immer';
 
 import type { List } from '@/features/lists/interfaces/list.interfaces';
-import { generateId } from '@/shared/utils/generateId';
+import { generateId } from '@/features/shared/utils/generateId';
 
 export interface ListSlice {
   lists: List[];
